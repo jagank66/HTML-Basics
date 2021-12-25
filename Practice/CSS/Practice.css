@@ -1,0 +1,97 @@
+body{
+    background: gainsboro;
+}
+h1 {
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.topBanner {
+    border-top-left-radius: 10px;
+    background-image: url("/Assests/Images/bg4.jpeg");
+    color: aliceblue;
+    height: 400px;
+}
+.tabBar {
+    width: 400px;
+    display: block;
+    margin: auto ;
+    margin-right: 10px;
+    margin-top: -60px;
+}
+button {
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+button:first-child {
+    border: 1px dotted white;
+}
+button:active {
+    border: 1px dotted white;
+}
+.designationlabel {
+    color: white;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2em;
+}
+.scroll {
+    width: 50%;
+    font-size: 1em;
+    margin: auto;
+    text-align: center;
+    display: block;
+    margin-top: 100px;
+}
+.profilePic {
+padding:   50px 50px;
+border-radius: 100px; ;
+}
+.about {
+    margin-left: 400px;
+    width: 100px;
+    display: block;
+    margin-top: -280px;
+    color: tomato;
+    border: 1px solid tomato;
+}
+.skills {
+    margin-left: 600px;
+    width: 100px;
+    display: block;
+    margin-top: -24px;
+    color: black;
+    border: 1px dotted black;
+}
+.namelbl {
+    display: block;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.descriptionPara {
+display: block;
+width: 400px;
+padding: 5px;
+border: 2px dotted rgb(19, 22, 19);
+margin-left: 300px;
+margin-top: -10px;
+}
+.services {
+    background: lightgrey;
+    height: auto;
+    margin-top: 30px;
+    color: rgba(14, 13, 13, 0.625);
+}
+.serviceTitle,.featuresLbl {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+.featuresTB{
+    margin-top: 20px;
+}
+.headings {
+    font-weight: bold;
+}
