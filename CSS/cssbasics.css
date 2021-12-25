@@ -1,0 +1,13 @@
+body,header {
+background-color: tomato;    
+}
+.topDiv,.bottomDiv {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+.middleDiv {
+    background-color: rgb(214, 32, 32);
+    width: 100px;
+    height: 100px;
+}

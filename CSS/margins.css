@@ -1,0 +1,29 @@
+
+h1{
+    border:2px solid;
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+}
+p{
+    border: 2px dotted;
+  width: 180px;
+  padding: 25px;
+}
+.p1 {
+    border-color: red;
+  margin: 10px;
+}
+.p2 {
+    border-color: green;
+    margin: 30px 100px 30px 100px;
+}
+.p3 {
+    border-color: indigo;
+    margin: 20%;
+}
+.p4 {
+    border: 5px solid;
+   margin-left: auto; 
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/Html/audio.html">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" placeholder="Jagan">
+
+        <br><br>
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" placeholder="Reddy">
+
+        <br><br>
+        <label for="last_name">Title:</label>
+        <input type="radio" name="title" id="Mr." >
+        <label for="Mr.">Mr.</label>
+        <input type="radio" name="title" id="Mrs.">
+        <label for="Mrs.">Mrs.</label>
+        <input type="radio" name="title" id="Miss.">
+        <label for="Miss.">Miss.</label>
+        <input type="radio" name="title" id="Phd.">
+        <label for="Phd.">Phd.</label>
+
+        <br><br>
+        <label for="payment">Payment:</label>
+        <select name="payment" id="paymeny">
+            <option value="visa">Visa</option>
+            <option value="master">Master</option>
+            <option value="phone pay">Phone pay</option>
+            <option value="google pay">Google pay</option>
+        </select>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="fake@gmail.com">
+        <br><br>
+
+        <label for="birthday">Birthday:</label>
+        <input type="date" name="date" id="date">
+        <br><br>
+
+        <label for="birth Time">Birth Time:</label>
+        <input type="time" name="time" id="time">
+        <br><br>
+
+        <label for="quantity">Qunatity:</label>
+        <input type="number" name="quantity" id="quantity" min="0" max="99" value="1">
+        <br><br>
+
+        <label for="phone">Phone#</label>
+        <input type="tel" name="phone" id="phone" maxlength="13">
+        13 is Max length
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" maxlength="10">
+        10 is Max length
+        <br><br>
+
+        <label for="rateus">Rate us:</label>
+        1<input type="range" value="0"> 5
+        <br><br>
+
+        <label for="subscribe">Subscribe#</label>
+        <input type="checkbox" name="suscribe" id="subscribe" >
+        <br><br>
+
+        <label for="uploadfile">Upload file:</label>
+        <input type="file" name="upload" id="upload" accept=".pdf">
+        <br><br>
+
+        <label for="month">month:</label>
+       <input type="month" name="month" id="month">
+        <br><br>
+
+        <label for="button">button:</label>
+        <input type="button" value="Click Me">
+        <br><br>
+
+        <label for="color">color picker:</label>
+        <input type="color" name="color" id="color">
+        <br><br>
+
+        <label for="image">image:</label>
+        <input type="image" src="/Assests/Images/download1.jpeg" alt="" width="10px" height="10px">
+        <br><br>
+
+        <label for="uploadfile">url:</label>
+        <input type="url" name="" id="">
+        <br><br>
+
+       <input type="reset">
+        <br><br>
+        <input type="submit">
+
+    </form>
+</body>
+</html>

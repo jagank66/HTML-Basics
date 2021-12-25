@@ -1,0 +1,52 @@
+.headerDiv {
+    background-image: url('/Assests/Images/bg4.jpeg');
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 0.8;
+    height: 200px;
+    color: lightgrey;
+}
+.HeaddingLabel,.subHeaddingLabel {
+    width: 30%;
+    font-family: monospace;
+    margin: auto;
+   background: rgba(12, 12, 12, 0.3);
+   margin-top: 20px;
+   
+}
+.HeaddingLabel,.subHeaddingLabel,.scrollIcon {
+    text-align: center;
+}
+
+.scrollIcon {
+    width: 30%;
+    margin: auto;
+    margin-top: 70px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.middleDiv {
+    background-color: lightgray;
+}
+.headImag {
+    width: auto;
+    margin: auto;
+   display: flex;
+}
+ .HeaddingLabel2 {
+     width: 30%;
+     margin: auto;
+     text-align: center;
+     margin-top: 20px;
+     font-size: 1.5em;
+ } 
+ .sdPara {
+     width: 30%;
+     text-align: center;
+     margin: auto;
+     margin-top: 20px;
+     border: 1px dotted gray;
+ }
+ .address,.sdPara,.HeaddingLabel2 {
+     color: gray;
+ }

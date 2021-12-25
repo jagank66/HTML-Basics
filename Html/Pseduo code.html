@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      a:link {
+        color: red;
+      }
+      a:visited {
+        color: seagreen;
+      }
+      a:hover {
+          border: 2px double;
+      }
+      a:active {
+          border: 2px dotted;
+      }
+      li:first-child,li:last-child {
+          width: 250px;
+          color: orangered;
+          background: linear-gradient(to right,orange,blue)
+      }
+      li:nth-child(odd) {
+padding: 20px;
+      }
+      li:nth-child(even) {
+          padding: 10px;
+          width: 500px;
+          border: 2px dotted;
+      }
+      li:nth-child(2n+1) {
+          color: red;
+      }
+    </style>
+
+    <title>Pseduo code</title>
+  </head>
+  <body>
+    <!--
+        Pseduo code
+Link:- to display link different colour
+visited:- to display alredy visited link in different colour
+hover:- when we move cursor on perticular item
+active:- any html item is clicked on will change colour
+first-child:- inside lists to change properties for first item we can change
+last-child:- inside lists to change properties for last item we can change
+nth-child():- with this pseduo we can change the any index propery and we can use it many ways i.e
+1. we can change for all odd numbers
+    nth-child(odd)
+    
+2. we can change for all even numbers
+    nth-child(even)
+3. we can change for bunch of sequence items with below alogorithm
+    nth-child(an+b)
+    here a = cycle size
+         n = counter (starts at 0)
+         b = offset value 
+         like nth-child(2n+0)
+    -->
+    <a href="http://google.com">Click</a>
+    <br />
+    <br />
+    <button>Click Me:)</button>
+    <ol>
+      <li>This is the item number #1</li>
+      <li>This is the item number #2</li>
+      <li>This is the item number #3</li>
+      <li>This is the item number #4</li>
+      <li>This is the item number #5</li>
+      <li>This is the item number #6</li>
+      <li>This is the item number #7</li>
+      <li>This is the item number #8</li>
+      <li>This is the item number 9</li>
+      <li>This is the item number #10</li>
+      <li>This is the item number #11</li>
+      <li>This is the item number #12</li>
+      <li>This is the item number #13</li>
+      <li>This is the item number #14</li>
+      <li>This is the item number #15</li>
+      <li>This is the item number #16</li>
+    </ol>
+  </body>
+</html>

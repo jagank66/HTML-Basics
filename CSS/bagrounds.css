@@ -1,0 +1,43 @@
+
+html {
+    color: whitesmoke;
+    background-image: url("/Assests/Images/bg4.jpeg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /*
+    here when we take BG image we need to follow below steps
+    1. forst need to turn off repeat mode
+    2. then we need to set the position of from where it need to display
+    3. then need to set size to cover 
+    4. then need to set attachment as fixed
+    */
+}
+
+h1 {
+    background: linear-gradient(  to right, red, blue, orangered);
+}
+
+.firstpara,.fourth {
+    padding:5px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+    background: linear-gradient(to right, grey,black);
+    border-style: dotted;
+}
+
+.secondpara,.thirdpara {
+    padding: 5px;
+    border-style: inset;
+    border-color: limegreen;
+    font-size: 2em;
+    font-family: 'Verdana';
+    background: linear-gradient(to top, purple,yellow,green,orange);
+}
+
+body {
+    background: red;
+}

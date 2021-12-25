@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/cssbasics.css">
+    <title>CSS Types</title>
+</head>
+<style>
+    #h1id2,
+    .paraclass1 {
+        color: orange;
+        background-color: olive;
+    }
+
+    h1,
+    .paraclass3 {
+        color: navy;
+        background-color: blueviolet;
+    }
+
+    p {
+        color: orchid;
+    }
+</style>
+
+<body>
+    <!--
+        There are 3 types of CSS are there
+        1. Inline -> will provide style with in the tag and it cant be re use
+        2. Internal -> will provide styles with in HTML file between <style></style> 
+                       tags in header or body and this styles will be global with in 
+                       HTML file only cant use out of this file
+        3. External - >  by taking seperate css file we can write and we can reuse
+                         by linking to any HTML file
+           
+          Note :
+          here we will denote id with #  (#id{color: red})
+          and class with .(dot) before taking css class {.class{color:red}}
+          and if we want to change mulitplie id or class css we can just list all by , seperate
+          (#id1,#id2,#id3 {color: red} or .class1,.class2,.class3 {color: red})
+          we can use combination of id and classes and we have to preffer classes only ids we should not use
+    -->
+    <h1 style="color: brown; background-color: black;">This is Inline CSS Section</h1>
+    <p style="color: green; background-color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam itaque
+        excepturi aperiam corrupti earum magnam consequuntur odio facere mollitia! Debitis necessitatibus, ad eligendi
+        magnam eos temporibus quod aspernatur eum qui.</p>
+    <hr>
+    <h1 id="h1id2">Thi is Internal CSS section</h1>
+    <p id="paraid1" class="paraclass1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, a modi,
+        voluptates voluptatibus ab, sit inventore maiores hic iure fuga tempora? Quis, eveniet dicta? Cumque adipisci
+        perspiciatis dolorem neque impedit.</p>
+    <p id="paraid3" class="paraclass3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit iste, illo est
+        nihil libero quia quae amet? Quas maxime vel corrupti pariatur ipsum, dolores iste earum expedita, odio, eum
+        quibusdam.</p>
+    <hr>
+    <h1>This is common color</h1>
+    <div class="topDiv">
+    </div>
+    <div class="middleDiv"></div>
+    <div class="bottomDiv"></div>
+</body>
+
+</html>
